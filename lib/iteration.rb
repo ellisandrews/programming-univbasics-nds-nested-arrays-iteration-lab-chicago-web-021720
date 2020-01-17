@@ -26,7 +26,7 @@ def find_greater_pair(src)
   
   array = []
   
-  src.lenth.times do |index|
+  src.length.times do |index|
     if src[index][0] > src[index][1]
       array << src[index][0]
     else
